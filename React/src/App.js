@@ -1,19 +1,13 @@
 import React, { useState } from "react";
-import Chrono from "./components/chrono";
+import Chrono from "./components/Chrono";
 import Metronome from "./components/Metronome";
-import Game from "./components/tictactoe/Game";
+
 
 const App = () => {
 
   return (
     <div>
-      <Chrono/>
-      <br/>
-      Metronome
-      <Metronome/>
-      <br/>     
-      Morpion
-      <Game/>
+    <Chrono/>
     </div>
   
   );
